@@ -48,11 +48,16 @@ body {
 .redes {
     width: 180px;
     height: 100px;
-    background-color: white;
+    background-color: #d2cecb;
     margin: 50px;
     display: inline-block;
+    border-radius: 10px;
 }
-
+.redes img {
+    width: 80px;
+    height: 80px;
+    
+}
 h1{
     text-align: center;
     color: #35b0bf;
