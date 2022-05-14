@@ -27,6 +27,15 @@ body {
     margin: 100px;
     position: relative;
 }
+.profile h1 {
+    color: blanchedalmond;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 600px;
+    
+}
 #circulo {
     height:700px;
     width:700px;
@@ -34,8 +43,20 @@ body {
     -moz-border-radius:50px;
     -webkit-border-radius:50px;
     border-radius:350px;
-    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
 }
+#circulo img {
+    text-align: center;
+    margin-left: 30%;
+    width: 300px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:350px;
+}
+
 #rectangle {
     width: 900px; 
     height: 200px; 
