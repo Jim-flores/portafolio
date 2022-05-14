@@ -129,32 +129,26 @@ h1{
 .container {
     padding: 2px 16PX;
 }
-/********************/
-/* Make sure that padding behaves as expected */
+
 * {box-sizing:border-box}
 .habilidades {
-    
     margin-left: 20%;   
-        
-    
 }
 .habilidades p {
     color: aliceblue;
     
 }
-/* Container for skill bars */
-.bar {
-  
-  width: 70%; /* Full width */
-  background-color: #ddd; /* Grey background */
-  
+
+.bar {  
+  width: 70%; 
+  background-color: #ddd;   
 }
 
 .skills {
-  text-align: right; /* Right-align text */
-  padding-top: 10px; /* Add top padding */
-  padding-bottom: 10px; /* Add bottom padding */
-  color: white; /* White text color */
+  text-align: right; 
+  padding-top: 10px; 
+  padding-bottom: 10px;
+  color: white; 
 }
 
 .web-design {width: 90%; background-color: #35b0bf;} 
